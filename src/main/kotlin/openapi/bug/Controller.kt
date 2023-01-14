@@ -7,6 +7,6 @@ import io.micronaut.http.annotation.Get
 class Controller {
     @Get("/ping")
     fun ping(): String {
-        return "pong"
+        return """["pong"]"""
     }
 }
