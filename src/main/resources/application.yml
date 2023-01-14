@@ -8,9 +8,6 @@ micronaut:
         paths: classpath:META-INF/swagger/views/swagger-ui
         mapping: /customPath/**
         #mapping: /swagger-ui/**
-      swagger-ui-res:
-        paths: classpath:META-INF/swagger/views/swagger-ui/res
-        mapping: /swagger-ui/res/**
   application:
     name: openapiBug
 netty:
